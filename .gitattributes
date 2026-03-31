@@ -1,7 +1,8 @@
-# Ignore Flutter platform boilerplate for language statistics
-frontend/android/* linguist-vendored
-frontend/ios/* linguist-vendored
-frontend/macos/* linguist-vendored
-frontend/windows/* linguist-vendored
-frontend/linux/* linguist-vendored
-frontend/web/* linguist-vendored
+# Ignore all Flutter platform boilerplate recursively
+frontend/android/** linguist-vendored
+frontend/ios/** linguist-vendored
+frontend/macos/** linguist-vendored
+frontend/windows/** linguist-vendored
+frontend/linux/** linguist-vendored
+frontend/web/** linguist-vendored
+
